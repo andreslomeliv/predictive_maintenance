@@ -1,4 +1,4 @@
-FROM jupyter/scipy-notebook
+FROM jupyter/minimal-notebook:x86_64-ubuntu-22.04
 
 WORKDIR work
 
