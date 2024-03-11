@@ -16,7 +16,7 @@ COPY PdM_telemetry.csv .
 
 COPY predictive_maintenance_test.ipynb .
 
-copy requirements.txt .
+COPY requirements.txt .
 
 RUN pip install -r requirements.txt
 
